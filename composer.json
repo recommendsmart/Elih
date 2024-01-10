@@ -54,7 +54,8 @@
             "drupal/core-project-message": true,
             "oomphinc/composer-installers-extender": true,
             "phpstan/extension-installer": true,
-            "zaporylie/composer-drupal-optimizations": true
+            "zaporylie/composer-drupal-optimizations": true,
+            "php-http/discovery": true
         }
     },
     "require": {
@@ -116,7 +117,7 @@
         },
         "drupal-scaffold": {
             "locations": {
-                "web-root": "web/"
+                "web-root": "./"
             },
             "overwrite": true,
             "file-mapping": {
@@ -126,21 +127,21 @@
             }
         },
         "installer-paths": {
-            "web/core": ["type:drupal-core"],
+            "core": ["type:drupal-core"],
             "libraries/{$name}": [
                 "furf/jquery-ui-touch-punch",
                 "select2/select2"
             ],
-            "web/libraries/{$name}": [
+            "libraries/{$name}": [
                 "type:drupal-library"
             ],
-            "web/modules/contrib/{$name}": [
+            "modules/contrib/{$name}": [
                 "type:drupal-module"
             ],
-            "web/profiles/contrib/{$name}": [
+            "profiles/contrib/{$name}": [
                 "type:drupal-profile"
             ],
-            "web/themes/contrib/{$name}": [
+            "themes/contrib/{$name}": [
                 "type:drupal-theme"
             ],
             "drush/Commands/contrib/{$name}": [
