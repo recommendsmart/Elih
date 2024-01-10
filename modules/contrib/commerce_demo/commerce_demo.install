@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Install configuration after the demo installation.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function commerce_demo_install() {
+  // Set front page to "frontpage" by default.
+  \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/frontpage')->save(TRUE);
+}
