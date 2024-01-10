@@ -4042,6 +4042,31 @@
             "install-path": null
         },
         {
+            "name": "drupal/commerce_demo",
+            "version": "3.0.x-dev",
+            "version_normalized": "3.0.9999999.9999999-dev",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/commerce_demo.git",
+                "reference": "ae12b48e897b3a72b8fdd26d7523d975e6a2a282"
+            },
+            "require": {
+                "centarro/commerce_kickstart": "^3.0",
+                "drupal/default_content": "^2.0@alpha",
+                "drupal/search_api": "^1.20"
+            },
+            "time": "2023-06-05T14:54:31+00:00",
+            "default-branch": true,
+            "type": "drupal-module",
+            "installation-source": "source",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Demo module for the Commerce module.",
+            "homepage": "http://drupal.org/project/commerce_demo",
+            "install-path": "../../modules/contrib/commerce_demo"
+        },
+        {
             "name": "drupal/commerce_email",
             "version": "1.1.0",
             "version_normalized": "1.1.0.0",

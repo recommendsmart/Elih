@@ -3,7 +3,7 @@
         'name' => 'centarro/commerce-kickstart-project',
         'pretty_version' => '3.x-dev',
         'version' => '3.9999999.9999999.9999999-dev',
-        'reference' => '0b5eea5a6c76a8532deb545607628e98be857404',
+        'reference' => 'cd3a623c03a6a8106ebe5dc3df68209ae6468502',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -94,7 +94,7 @@
         'centarro/commerce-kickstart-project' => array(
             'pretty_version' => '3.x-dev',
             'version' => '3.9999999.9999999.9999999-dev',
-            'reference' => '0b5eea5a6c76a8532deb545607628e98be857404',
+            'reference' => 'cd3a623c03a6a8106ebe5dc3df68209ae6468502',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -538,6 +538,15 @@
             'reference' => NULL,
             'type' => 'metapackage',
             'install_path' => NULL,
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'drupal/commerce_demo' => array(
+            'pretty_version' => '3.0.x-dev',
+            'version' => '3.0.9999999.9999999-dev',
+            'reference' => 'ae12b48e897b3a72b8fdd26d7523d975e6a2a282',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/commerce_demo',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -1803,8 +1812,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.1|2.0',
-                1 => '^1.0',
+                0 => '^1.0',
+                1 => '1.1|2.0',
             ),
         ),
         'psr/event-dispatcher' => array(
@@ -1834,8 +1843,8 @@
         'psr/http-client-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '*',
-                1 => '1.0',
+                0 => '1.0',
+                1 => '*',
             ),
         ),
         'psr/http-factory' => array(
@@ -1850,8 +1859,8 @@
         'psr/http-factory-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '*',
-                1 => '1.0',
+                0 => '1.0',
+                1 => '*',
             ),
         ),
         'psr/http-message' => array(
@@ -1866,8 +1875,8 @@
         'psr/http-message-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '*',
-                1 => '1.0',
+                0 => '1.0',
+                1 => '*',
             ),
         ),
         'psr/log' => array(
@@ -1882,8 +1891,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psy/psysh' => array(
